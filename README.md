@@ -2,6 +2,13 @@
 
 This exporter for [TexturePacker](http://www.texturepacker.com/) creates a new exporter type called "Multi-CSS" that will use the CSS filename as the image spritesheet class name, and also make sure the width rules for the image classes only apply to an element tagged both with the image name and the spritesheet name.
 
+## Installation ##
+
+    make install
+
+
+## Why? Isn't the default CSS exporter good enough? ##
+
 Someone may want to have multiple sprite sheets, one for the base site design, and one for the specific content displayed on the page.
 
 The default CSS exporter may break your css if an image name collides with an existing css class.  The default CSS exporter uses a static base class name "sprites" so you can't have multiple sprite sheets on one page without modifying the output css.
