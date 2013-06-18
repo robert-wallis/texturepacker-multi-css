@@ -1,16 +1,16 @@
 <exporter version="1.0">
     <!-- identifier of the exporter -->
     <name>multi-css</name>
-	
+
     <!-- display name of the exporter for the combo box -->
     <displayName>Multi-CSS</displayName>
-	
+
     <!-- description of the exporter -->
 	<description>CSS exporter that lets you have a site with multiple sprite sheets</description>
 
     <!-- exporter version -->
     <version>1.0</version>
-	
+
     <!-- currently only one file allowed - more to come with update -->
     <files>
         <file>
@@ -41,10 +41,10 @@
     <supportsNPOT>true</supportsNPOT>
 
     <!-- supports file name stripping (remove .png etc) -->
-    <supportsTrimSpriteNames>no</supportsTrimSpriteNames>
+    <supportsTrimSpriteNames>yes</supportsTrimSpriteNames>
 
     <!-- supports texure subpath -->
-    <supportsTextureSubPath>yes</supportsTextureSubPath>
+    <supportsTextureSubPath>no</supportsTextureSubPath>
 
 </exporter>
 
